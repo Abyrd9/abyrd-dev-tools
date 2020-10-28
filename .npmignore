@@ -1,0 +1,7 @@
+.vscode
+node_modules
+.eslintrc
+.gitignore
+.prettierrc
+package-lock.json
+README.md
