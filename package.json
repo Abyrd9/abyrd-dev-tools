@@ -1,6 +1,6 @@
 {
   "name": "@abyrd9/abyrd-dev-tools",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A repo of generic hooks, functions, components, etc to pull from",
   "main": "index.js",
   "module": "index.js",
