@@ -1,6 +1,6 @@
 {
   "name": "@abyrd9/abyrd-dev-tools",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A repo of generic hooks, functions, components, etc to pull from",
   "main": "index.js",
   "module": "index.js",
@@ -23,15 +23,12 @@
   },
   "homepage": "https://github.com/Abyrd9/abyrd-dev-tools#readme",
   "peerDependencies": {
+    "lodash-es": "^4.17.15",
     "react": "^17.0.1"
   },
   "devDependencies": {
     "@abyrd9/eslint-config-abyrd": "^1.0.2",
+    "lodash-es": "^4.17.15",
     "react": "^17.0.1"
-  },
-  "dependencies": {
-    "lodash.debounce": "^4.0.8",
-    "lodash.isempty": "^4.4.0",
-    "lodash.isequal": "^4.5.0"
   }
 }

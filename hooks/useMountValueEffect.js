@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import isEmpty from 'lodash.isempty';
+import isEmpty from 'lodash-es/isEmpty';
 
 // A useEffect may run on first render, but a value it's using is not populated yet
 // we don't want to run every time it changes, only run once a value is populated

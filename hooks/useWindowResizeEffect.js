@@ -1,5 +1,5 @@
 import { useLayoutEffect } from 'react';
-import debounce from 'lodash.debounce';
+import debounce from 'lodash-es/debounce';
 
 const useWindowEffect = (callback) => {
   const updateWindowSize = debounce(() => {
