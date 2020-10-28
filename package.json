@@ -1,0 +1,36 @@
+{
+  "name": "@abyrd9/abyrd-dev-tools",
+  "version": "1.0.0",
+  "description": "A repo of generic hooks, functions, components, etc to pull from",
+  "main": "index.js",
+  "module": "index.js",
+  "sideEffects": false,
+  "scripts": {
+    "test": "test"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abyrd9/abyrd-dev-tools.git"
+  },
+  "author": "Andrew Byrd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abyrd9/abyrd-dev-tools/issues"
+  },
+  "homepage": "https://github.com/Abyrd9/abyrd-dev-tools#readme",
+  "peerDependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@abyrd9/eslint-config-abyrd": "^1.0.2",
+    "react": "^17.0.1"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "lodash.isempty": "^4.4.0",
+    "lodash.isequal": "^4.5.0"
+  }
+}
